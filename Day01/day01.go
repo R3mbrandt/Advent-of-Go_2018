@@ -8,7 +8,7 @@ import (
 	"github.com/R3mbrandt/Advent-of-Go_2018/helper"
 )
 
-//processInput converts an array of strings, to an array of ints
+//processInput converts an array of strings to an array of ints
 func processInput(lines []string) (data []int) {
 	for _, l := range lines {
 		value, err := strconv.Atoi(l)
